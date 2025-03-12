@@ -1,1 +1,4 @@
 # Web_scraping_challenge
+This repository contains a full web-scraping and data analysis project focused on Mars-related data. In the first part (found in part_1_mars_news.ipynb), we use Splinter and Beautiful Soup to automate the process of visiting a Mars news site and extract the latest article titles and preview texts. The results are stored in a Python data structure, making them easy to further analyze or quickly share.
+
+In the second part of this project (found in part_2_mars_weather.ipynb), we scrape and analyze a table of Mars weather data using Beautiful Soup. After building a pandas DataFrame of the data, we convert columns to the proper data types and then perform exploratory analysis to identify trends in temperatures, atmospheric pressures, and overall seasonal patterns on Mars. Finally, we visualize our findings through bar plots and line charts, and export the cleaned data to a CSV file for future use.
